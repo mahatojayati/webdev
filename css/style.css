@@ -2,21 +2,26 @@ div{
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 5px;
+    font-style: italic;
 }
 h2{
-    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+
 }
 body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: blue;
+    color: #333;
+    background-color: rgb(245, 188, 197);
 }
 .card{
-    border: 1px solid #ccc;
+    border: 1px solid #1a1a1a;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+
 }
 .card h3{
     margin-top: 0;
