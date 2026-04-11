@@ -3,10 +3,12 @@ div{
     padding: 20px;
     border-radius: 5px;
     font-style: italic;
+    color: white;
 }
 h2{
     font-size: 24px;
     margin-bottom: 10px;
+    color: white;
 
 }
 body{
@@ -16,13 +18,21 @@ body{
     color: #333;
     background-color: rgb(245, 188, 197);
 }
-.card{
-    border: 1px solid #1a1a1a;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 5px;
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: yellow;
+    font-style: oblique;
 
 }
-.card h3{
-    margin-top: 0;
+.card{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
