@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-    .card {
+    body{
      margin: 20px;
     padding: 20px;
     display :flex;
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-   background-color: rgb(214, 36, 36); 
+   background-color: lightcoral; 
  } h2{
      font-size: 24px;
  }
@@ -23,8 +23,8 @@
 <body>
    
     <div class="card">
-        <p id="instructions">Enter your credentials to login</p>
-        
+        <!-- <p id="instructions">Enter your credentials to login</p>
+        <br>
         <h2> login </h2>
         <form>
             <label for="username">Username:</label>
@@ -37,6 +37,19 @@
             <br>
             <center><button type="submit">Login</button></center>
         </form>
-        </div>
+        </div> -->
+        <form>
+            <center><h2>Login</h2></center>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+            <center><button type="submit">Login</button></center>
+        
+        </form>
 </body>
 </html>
