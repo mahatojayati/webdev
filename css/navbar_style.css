@@ -1,7 +1,28 @@
-body{
+.nav-container {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: rgb(245, 188, 197);
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-container h1 {
+    color: white;
+    margin: 0;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    button {
+        background-color: teal;
+        border: none;
+        cursor: pointer;
+    }
+}
+.nav-container a {
+    text-decoration: none;
+    color: white;
+}
+.nav-container a:hover {
+    color: teal;
 }
