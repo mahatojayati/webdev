@@ -11,7 +11,7 @@
 .nav-container h1 {
     color: white;
     margin: 0;
-    background-color: blueviolet;
+    background-color: mediumseagreen;
     padding: 5px 10px;
     button {
         background-color: teal;
@@ -21,8 +21,8 @@
 }
 .nav-container a {
     text-decoration: none;
-    color: white;
+    color: yellow;
 }
 .nav-container a:hover {
-    color: teal;
+    color: lightyellow;
 }
