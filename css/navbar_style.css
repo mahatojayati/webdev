@@ -1,28 +1,23 @@
-.nav-container {
-    font-family: Arial, sans-serif;
+nav{
+    background-color: #333;
+    overflow: hidden;
+
+}
+nav ul{
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: teal;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
-.nav-container h1 {
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
     color: white;
-    margin: 0;
-    background-color: mediumseagreen;
-    padding: 5px 10px;
-    button {
-        background-color: teal;
-        border: none;
-        cursor: pointer;
-    }
-}
-.nav-container a {
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: yellow;
 }
-.nav-container a:hover {
-    color: lightyellow;
+nav ul li a:hover{
+    background-color: #111;
 }
