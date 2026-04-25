@@ -10,11 +10,11 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: beige;
+  background-color: papayawhip;
 
   .nav-container
   {
-    margin-bottom:10px;
+    margin-bottom:20px;
   }
   .h2{
     margin-bottom: 40px;
@@ -23,30 +23,60 @@
   .navbar1 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 3px;
     display: flex;
     justify-content: space-around;
+    background-color: lemonchiffon;
   }
   
   .navbar1{
     border: 2px solid black;
-    border-radius: 5px;
-    padding: 0;
-    background-color: white;
-
+    border-radius: 2px;
+    padding: 10px;
+    background-color: lemonchiffon;
+    /* background-color: violet; */
   }
   .navbar1 li {
     display: inline-block;
+    background-color: white;
 
   }
   .navbar1 a {
     text-decoration: none;
-    color: teal
-    padding 5px 15px;
+    padding: 5px 10px;
+    /* background-color: moccasin; */
+    color: lightcoral;
+    position: relative;
   }
+
   .navbar1 a::after{
-    content: 'grrrrh';
+    content: '';
     position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: lightcoral;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+
+  }
+  .navbar1 a:hover::after {
+    width: 100%;
+    transform: scaleX(1);
+
+    
+  }
+  .navbar1 a::after {
+    /* content: 'grrrrh'; */
+    display: absolute;
+  }
+  .navbar1 .loginbutton{
+    background-color: moccasin;
+    /* border: 5px solid black; */
+    border-radius: 5px;
+    color: lightcoral;
+    cursor: pointer;
   }
 }
 </style>
