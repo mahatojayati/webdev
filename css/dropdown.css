@@ -18,9 +18,35 @@
 {
     text-decoration: none;
     color: black;
-    padding: 10px 20px;
+    padding: 10px;
     display: block;
+    background-color: lightcyan;
 }
+
+.nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: lightcoral;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+
+  }
+.navbar1 a:hover::after 
+{
+    width: 100%;
+    transform: scaleX(1);
+}
+
+.nav li {
+    display: inline-block;
+    background-color: white;
+
+  }
+
 .nav .dropdown-content
 {
     display: none;
@@ -34,3 +60,6 @@
     min-width: 150px;
     z-index: 1;
 }
+ 
+
+
