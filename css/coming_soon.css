@@ -14,3 +14,14 @@ html{
     text-align: center;
     color: white;
 }
+.content{
+    text-align: center;
+    background-color: rgba(220, 20, 60, 0.8);
+    padding: 2rem;
+}
+.logo
+{
+   width: 400px;
+    height: 200px;
+    object-fit: cover; 
+}
