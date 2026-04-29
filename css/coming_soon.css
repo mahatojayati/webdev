@@ -68,5 +68,10 @@ input[type="email"] {
   padding: 10px 20px;
   cursor: pointer;
   width: 100%;
+  transition: background-color 0.1s ease-in-out;
 }
-    
+
+button:hover {
+  background-color: #feb47b;
+}
+
