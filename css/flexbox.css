@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    border: 10px solid white;
+    border: 10px solid yellowgreen;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -10,6 +10,6 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: lightblue;
+    background-color: purple;
     font-size: 20px;
 }
