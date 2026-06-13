@@ -1,0 +1,18 @@
+body{
+    min-height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: bottom-left;
+
+}
