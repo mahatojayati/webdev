@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    
+}
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    color: midnightblue;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: midnightblue;
+    border-width: 2px;
+    border-style: solid;
+
+
+
+
+    
+}

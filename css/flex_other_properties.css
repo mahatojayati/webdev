@@ -2,19 +2,38 @@ body{
     min-height: 800px;
     border: 8px solid black;
     display: flex;
+    justify-content: space-and-evenly;
+    align-items: space-and-evenly;
+    align-content : space-and-evenly;
     gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
-    align-content: safe;
-
 }
+
 .box{
+    flex-grow: 0;
+    flex-shrink: 0;
     height: 100px;
     width: 100px;
-    background-color: red;
-    font-size: 30px;
-    border: 1px solid black;
-    text-align: center;
-
+    display: grid;
+    justify-content: space-and-evenly;
+    align-items: space-and-evenly;
+    align-content : space-and-evenly;
+    background-color: lightblue;
+    font-size: 40px;
+    border: 5px solid pink;
+    flex-wrap: wrap;
+    @media (max-width: 575px) 
+    {
+        body{
+            width: 50px;
+        height: 50px;
+        font-size: 20px;
+        flex-wrap: wrap;
+        }
+    }
+   
+    
 }
