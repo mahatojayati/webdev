@@ -1,17 +1,25 @@
 .grid-container {
     display: grid;
-    
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    gap : 10px;
+
+
 }
 .grid-item {
+    height: 100px;
+    width: 100px;
     background-color: lightblue;
     padding: 20px;
     color: midnightblue;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 4px;
     font-size: 20px;
     border-color: midnightblue;
     border-width: 2px;
     border-style: solid;
+    
+
 
 
 
