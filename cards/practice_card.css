@@ -1,0 +1,228 @@
+.product-card {
+    width: 360px;
+    position: relative;
+    background:burlywood;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(234, 151, 19, 0.894);
+}
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(45deg, #18181B, #27272A);
+    color: navajowhite;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    z-index: 10;
+    box-shadow: 0 5px 15px rgba(206, 130, 9, 0.673);
+}
+
+.product-tilt-effect {
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.product-image {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.product-info {
+    padding: 25px;
+    position: relative;
+}
+
+.product-category {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d17f0d;
+    margin-bottom: 8px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #d17f0d;
+    margin: 0 0 12px 0;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+.product-description p {
+    font-size: 14px;
+    color: #d17f0d;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.product-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    font-size: 11px;
+    background-color: whitesmoke;
+    color: #d17f0d;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.product-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-was {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.price-now {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.product-button {
+    background: linear-gradient(45deg, #18181B, #27272A);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.product-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: all 0.6s ease;
+}
+
+.product-button:hover {
+    background: linear-gradient(45deg, #27272A, #3F3F46);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-button:hover::before {
+    left: 100%;
+}
+
+.button-icon {
+    transition: transform 0.3s ease;
+}
+
+.product-button:hover .button-icon {
+    transform: rotate(-10deg) scale(1.1);
+}
+
+.product-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F4F4F5;
+    padding-top: 15px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.rating-count {
+    margin-left: 8px;
+    font-size: 12px;
+    color: white;
+}
+
+.product-stock {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .product-card {
+        width: 90%;
+    }
+    
+    .product-title {
+        font-size: 18px;
+    }
+    
+    .product-image {
+        height: 200px;
+    }
+    
+    .product-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .product-price {
+        margin-bottom: 5px;
+    }
+    
+    .product-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
