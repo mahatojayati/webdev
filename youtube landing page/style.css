@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#101010;
+    font-family:'Poppins',sans-serif;
+    color:white;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1400px;
+    margin:30px auto;
+
+    border:2px solid #555;
+    border-radius:18px;
+
+    padding:25px;
+
+}
+
+/* Hero */
+
+.hero{
+
+    width:100%;
+    height:380px;
+
+    border:2px solid #777;
+    border-radius:16px;
+
+    overflow:hidden;
+
+}
+
+.hero img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+
+/* Video Section */
+
+.videos{
+
+    margin:40px 0;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:50px;
+
+}
+
+/* Card */
+
+.card{
+
+    border:2px solid #777;
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background:#181818;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.45);
+
+}
+
+.card img{
+
+    width:100%;
+    height:180px;
+
+    object-fit:cover;
+
+}
+
+.content{
+
+    padding:20px;
+
+}
+
+.content h2{
+
+    font-size:32px;
+    margin-bottom:8px;
+
+}
+
+.content p{
+
+    font-size:22px;
+
+    color:#d5d5d5;
+
+    margin-bottom:30px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#2f5fd6;
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#4477ff;
+
+}
+
+/* Footer */
+
+footer{
+
+    border:2px solid #777;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    text-align:center;
+
+    font-size:26px;
+
+    color:#ddd;
+
+}
+
+/* Tablet */
+
+@media(max-width:900px){
+
+.hero{
+
+height:280px;
+
+}
+
+.content h2{
+
+font-size:28px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+.container{
+
+width:95%;
+padding:15px;
+
+}
+
+.hero{
+
+height:200px;
+
+}
+
+.content h2{
+
+font-size:24px;
+
+}
+
+.content p{
+
+font-size:18px;
+
+}
+
+.btn{
+
+width:100%;
+
+text-align:center;
+
+}
+
+footer{
+
+font-size:20px;
+
+}
+
+}
