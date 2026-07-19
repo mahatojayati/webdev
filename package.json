@@ -1,0 +1,25 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "learning webdev.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahatojayati/webdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahatojayati/webdev/issues"
+  },
+  "homepage": "https://github.com/mahatojayati/webdev#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwind": "^2.3.1"
+  }
+}
