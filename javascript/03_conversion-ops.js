@@ -15,3 +15,7 @@ console.log(valueinnumber);
 let value  = 0;
 console.log(Boolean(value));
 
+// ' ' - false
+// -1 - true
+// 0 - false
+'beesting' - true
