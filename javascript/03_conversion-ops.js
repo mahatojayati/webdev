@@ -1,5 +1,5 @@
 "use strict"
-let score = "33" ;
+let score
 
 console.log(typeof score);
 console.log(typeof(score));
