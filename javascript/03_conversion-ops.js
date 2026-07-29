@@ -19,3 +19,15 @@ console.log(Boolean(value));
 // -1 - true
 // 0 - false
 'beesting' - true
+
+// check negation of values
+let negativevalue  = 5;
+console.log(-negativevalue);
+
+//str operations
+
+first_name = "jayati"
+last_name = "mahato"
+console.log(first_name+last_name);
+
+
