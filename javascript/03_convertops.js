@@ -26,8 +26,6 @@ console.log(-negativevalue);
 
 //str operations
 
-first_name = "jayati"
-last_name = "mahato"
-console.log(first_name+last_name);
+
 
 
