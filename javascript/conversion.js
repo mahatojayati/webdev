@@ -18,7 +18,6 @@ console.log(Boolean(value));
 // ' ' - false
 // -1 - true
 // 0 - false
-'beesting' - true
 
 // check negation of values
 let negativevalue  = 5;
@@ -33,6 +32,25 @@ console.log(fullname);
 console.log(1 + "2");
 console.log("2" + 1);
 console.log(2 + 2 + "1");
+
+//conversion
+console.log(+true);
+console.log(+"");
+
+// data conversions 
+let num1, num2, num3
+num1 = num2 = num3 = 4.3;
+console.log(num1)
+console.log(num2)
+console.log(num3)
+
+let gamecounter = 100;
+
+gamecounter++;
+console.log(gamecounter);
+--gamecounter;
+console.log(gamecounter);
+
 
 
 
