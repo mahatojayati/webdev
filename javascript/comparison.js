@@ -13,4 +13,8 @@ console.log(null < 0)
 console.log(null > 0)
 console.log(null)
 
+// === checks the vaules strictly
+
+console.log(2 ==="2");
+
 
