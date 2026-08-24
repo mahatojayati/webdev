@@ -1,17 +1,26 @@
-// to get a user to signup and creat an account
-const account_id = 1144;
-let account_email = "slay101@gmail.com";
-var account_password = "secret@1234"
-account_city = "Delhi"
-let account_state;
+// var, let, const
 
-/*
-don't use var, cause scope issue.
-*/
-console.table([account_id, 
-    account_email, 
-    account_password, 
-    account_city,
-account_state]);
+//var
+var age = 30
+if(age === 30)
+{
+    another_age = 20;
+    console.log("Continue operations");
+    
+}
+console.log(another_age);
 
+//let
+{
 
+    let birthday = 24102005;
+}
+// not defined
+let birthday = 24102005;
+    
+//const 
+
+const card_id = "vmpwnfewipm"
+card_id = card_id+"1234"
+//assignment in a constant varible
+console.log(card_id);
