@@ -1,23 +1,50 @@
-"use strict"; // all code treated as new version
+//datatypes and operators
 
-// alert(yo!) not applicable in nodejs
+//datatypes
 
-let the_age = 56
-let the_name = "Jessica"
-let loggedin = false
-console.table([the_age, the_name, loggedin])
+//numbers
+num1 = 90; num2 = 34.56;
+console.log(num1+num2);
+
+//strings
+
+card_details = "fjiewpnviw"
+card_details1 = "eipncieqno"
+console.log(card_details + card_details1);
+
+//boolean
+// true - 1, false - 2
+let entry = true;
+console.log(entry + 10);
+console.log(entry * 0);
+console.log(typeof(entry));
 
 
-//number
-//bitInt
-//string
-//symbol
+// null
+let lastlogindate = null;
+console.log(lastlogindate);
 
-//object
-//null
-console.log(typeof null);
-console.log(typeof undefined);
-console.log(typeof Int16Array);
-console.log(typeof Number);
+//object 
+//person = object; 
+// name, age, language = properties;
+
+const Person = {
+    name: "jayati",
+    age: 20,
+    language: "Javascript",
+    
+
+}
+console.log(Person.age);
+console.log(Person.language);
+ 
+// some experiments
+console.log( 1+'1' );
+console.log( '1'+'1' );
+console.log( '1'+1 );
+console.log( '1'*1 );
+console.log( '1'*'1' );
+console.log( 1*'1' );
+
 
 
