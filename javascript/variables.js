@@ -16,7 +16,7 @@ console.log(another_age);
     let birthday = 24102005;
 }
 // not defined
-let birthday = 24102005;
+console.log(birthday);
     
 //const 
 
