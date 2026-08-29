@@ -1,16 +1,20 @@
-<h1>Project Discontinued</h1>
+ <h1>Portfolio &amp; Learning Journey</h1>
+    <p>Done with HTML, CSS, JS currently learning Nodejs.</p>
 
-<h2>This repository is no longer active or maintained.</h2>
+  <h2>🚀 About Me</h2>
+    <p>Welcome to my GitHub profile! I am a frontend developer expanding into full-stack engineering.</p>
 
-<ul>
-  <li><strong>Status:</strong> Discontinued</li>
-  <li><strong>Archived Reason:</strong> Lack of interest and motivation</li>
-  <li><strong>Updates:</strong> None planned</li>
-  <li><strong>What This Means:</strong> No new features will be added.</li>
-  <li>Bug fixes will not be addressed.</li>
-  <li>Pull requests and issues will not be reviewed or merged.</li>
-</ul>
+  <h2>🛠️ Tech Stack</h2>
+    <ul>
+        <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+)</li>
+        <li><strong>Backend:</strong> Node.js (Currently Learning)</li>
+    </ul>
 
-<p>
-  Thank you to everyone who checked out or used this project.
-</p>
+  <h2>📈 Current Focus</h2>
+    <ul>
+        <li>Building server-side applications</li>
+        <li>Understanding REST APIs</li>
+        <li>Working with npm packages</li>
+    </ul>
+
+
