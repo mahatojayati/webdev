@@ -1,9 +1,9 @@
 // arrow functions
 
-// syntax
+// 1. syntax
 
 const sayHello = () =>{
-    console.log("Heyy.");
+    console.log("Hello, folks.");
 
 };
 sayHello();
@@ -16,7 +16,7 @@ const addnum = (a,b) => a+b; // one liner
 
 console.log(addnum(2,3));
 
-// argument keyword
+// 2. argument keyword
 
 function multiplynumber() {
     console.log(arguments);
@@ -24,3 +24,15 @@ function multiplynumber() {
 }
 
 multiplynumber(10,23,45);
+
+
+// 3. Hoisting
+
+sayKonichiwa();
+
+function sayKonichiwa() {
+    console.log("Konichiwa Minasan!");
+    
+    
+}
+
