@@ -36,3 +36,13 @@ function sayKonichiwa() {
     
 }
 
+//4.  this keyword
+
+const obj = {
+    value:20,
+    myfunction : () =>{
+        console.log(this);
+
+    },
+ };
+obj.myfunction();
