@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - query selector</title>
+</head>
+<body>
+<nav>
+<p>this is my website</p>
+</nav>
+<div class = "block">
+    <h4>Lorem ipsum dolor sit amet.</h4>
+    <p class = "paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo.
+        <span id = "username">Liz</span>
+    </p>
+    <pre><code>console.log('Hello world')</code></pre>
+</div>
+
+// query selector - selects first elements and performs operations on that.
+/*
+
+ selectors
+ 1. tag name
+ 2. id #
+ 3. class .
+
+*/
+<script>
+    const body = document.querySelector("body")
+    console.log(body);
+
+    // innerHTML, changed the contents in body tag, and replaced it with Hello World
+    // body.innerHTML = "Hello World"
+
+    // innerHTML, accessed and displayed.
+    console.log(body.innerHTML);
+    
+    //innerText
+    const username = document.querySelector("#username")
+    username.innerText = "John Doe"
+    
+    
+    const element = document.querySelector(".block")
+    console.log(element.innerHTML);
+    
+    const element1 = document.querySelector("div")
+    console.log(element1.children);
+    
+
+</script>
+
+</body>
+</html>
