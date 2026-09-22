@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get element by id.</title>
+    <!-- <style>
+        .red-color{
+            color: red;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+    </style> -->
+</head>
+<body>
+    <nav class="block">
+        <p> this is a paragraph.</p>
+    </nav>
+
+    <div class="block">
+        <h4> Hello, my name is <span id = "username">Liz</span></h4>
+        <p class = "block" >Here is a code for you</p>
+        <pre><code>console.log("Hello")</code></pre>
+    </div>
+
+<script>
+    const element = document.getElementById("username")
+    element.innerText = "John Doe"
+    element.setAttribute('aria','123')
+
+
+    // to add elements via js
+    element.classList.add("red-color", "underline")
+    
+    // to remove elemetns via js
+     element.classList.remove("red-color")
+
+     element.style.textDecoration = "underline"
+     element.style.color = "cyan"
+     console.log(element.parentElement);
+     element.parentElement.style.backgroundColor = "yellow"
+     element.remove();
+     </script>
+</body>
+</html>
